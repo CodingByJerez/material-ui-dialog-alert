@@ -1,7 +1,7 @@
 {
   "private": false,
   "name": "material-ui-dialog-alert",
-  "version": "0.0.0-development",
+  "version": "1.0.0",
   "description": "react material ui dialog alert",
   "author": "Rodolphe Jerez <contact@codingbyjerez.com> (github.com/codingbyjerez)",
   "license": "MIT",
