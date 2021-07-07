@@ -19,6 +19,9 @@ npm install --save material-ui-dialog-alert
 ## Usage
 
 ```tsx
+import React from 'react';
+import { DialogAlertRoot, DialogAlert } from 'material-ui-dialog-alert';
+
 const Child = () => {
   const clickHandler = () => {
     DialogAlert.show({
@@ -51,10 +54,9 @@ const Child = () => {
 };
 
 const Parent = () => {
-  const [dialogProps] = useState<Partial<DialogProps>>({ maxWidth: 'xs' }); // (optional)
 
   return (
-    <DialogAlertRoot dialogProps={dialogProps} closeOnOverlayTap={false}>
+    <DialogAlertRoot dialogProps={{ maxWidth: 'xs' }} closeOnOverlayTap={false}>
       <Child />
     </DialogAlertRoot>
   );
