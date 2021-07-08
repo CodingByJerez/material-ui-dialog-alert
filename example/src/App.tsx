@@ -22,7 +22,7 @@ const Child = () => {
         {
           title: 'Ok',
           buttonProps: { color: 'primary' },
-          onClick: async () => {
+          onClick: () => {
             alert('callback button Ok :)');
             DialogAlert.hide();
           },
